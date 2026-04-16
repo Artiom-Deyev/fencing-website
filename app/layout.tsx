@@ -78,7 +78,7 @@ export default function RootLayout({
     <html lang="ru" className="scroll-smooth" suppressHydrationWarning>
       <head>
         {/* Яндекс Метрика */}
-        <Script
+        {/* <Script
           id="yandex-metrika"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -86,7 +86,7 @@ export default function RootLayout({
             m[i].l=1*new Date();k=e.getElementsByTagName(t)[0],a=e.createElement(t),a.async=1,a.src=r,k.parentNode.insertBefore(a,k)})
             (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "08330842");`,
           }}
-        />
+        /> */}
       </head>
       <body className={inter.className}>
         <Header />
